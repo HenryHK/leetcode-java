@@ -14,7 +14,7 @@ public class Q1 {
         return null;
     }
 
-    // Q1. Solution
+    // Q1. Solution: using HashMap
     public static int[] solution(int[] nums, int target){
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
